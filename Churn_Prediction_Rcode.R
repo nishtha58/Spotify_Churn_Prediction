@@ -1,5 +1,3 @@
-## Team 20 Final Project Code
-
 ## Data Preparation
 
 # Data Cleaning 
@@ -10,6 +8,7 @@ library(gridExtra)
 library(magrittr)
 library(dplyr)
 
+#Dataset available in repository
 data<- read.csv("/Users/nisht/Documents/Nishtha/Documents/Duke/Fall 1/Data Science/Project/spotify_churn_dataset.csv", header=TRUE)
 source("/Users/nisht/Documents/Nishtha/Documents/Duke/Fall 1/Data Science/DataAnalyticsFunctions.R")
 installpkg("plotrix")
@@ -89,7 +88,6 @@ ggplot(spotify, aes(x = country, fill = factor(is_churned))) +
                     labels = c("Stayed", "Churned"))
 
 
-
 spotify %>%
   mutate(age_group = cut(age, breaks = seq(10, 70, 10), include.lowest = TRUE)) %>%
   group_by(age_group) %>%
@@ -99,14 +97,6 @@ spotify %>%
   labs(x = "Age Group", y = "Churn Rate",
        title = "Churn Rate by Age Group") +
   scale_y_continuous(labels = scales::percent)
-
-
-
-## Modeling
-
-
-
-
 
 
 ## Clustering 
@@ -569,3 +559,4 @@ ggplot(important_vars[1:min(15, nrow(important_vars)), ],
   theme_minimal(base_size = 12) +
   labs(title = "Top 15 Most Important Variables (LASSO Logistic Regression)",
        x = "Variable", y = "Absolute Coefficient")
+
