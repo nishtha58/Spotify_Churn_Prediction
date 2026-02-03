@@ -4,7 +4,8 @@ Spotify User Churn Analysis & Prediction
 
 This project analyzes and predicts user churn for Spotify using behavioral, demographic, and subscription data. The objective is to identify high-risk users, understand the key drivers of churn, and translate analytical insights into actionable business recommendations for improving user retention.
 The project combines supervised and unsupervised learning techniques with a strong emphasis on interpretability and business deployment.
-Note: This was a team-based academic project completed as part of the Data Science for Business course at Duke University – Fuqua School of Business.
+
+Note: This was a team-based academic project completed as part of the Data Science for Business course at Duke University, Fuqua School of Business.
 
 **Data Description**
 
@@ -16,24 +17,24 @@ Subscription: subscription type, device type, ads listened per week
 Engagement: listening time, skip rate, songs played per day, offline listening
 Because the data is synthetic, results are intended to demonstrate general behavioral patterns and modeling approaches, rather than exact real-world churn estimates
 
-Repository Structure
+**Repository Structure**
 
 Churn_Prediction_Rcode.R
-- End-to-end analysis pipeline
-- Data preparation, modeling, evaluation, and visualization
+1)End-to-end analysis pipeline
+2)Data preparation, modeling, evaluation, and visualization
 
 DataAnalyticsFunctions.R
-- Custom reusable R functions for:
+Custom reusable R functions for:
   • Model performance evaluation
   • Metric calculation (AUC, RMSE, accuracy, log-loss)
   • Visualization and diagnostic plots
 
 final_dataset.csv
-- Dataset used for analysis
-- Synthetically generated Spotify user data sourced from Kaggle
+1)Dataset used for analysis
+2)Synthetically generated Spotify user data sourced from Kaggle
 
 Project_Report.pdf
-- Detailed technical and business report
+1)Detailed technical and business report
 
 Churn_Prediction_Spotify.pdf
 Summary Style presentation focused on insights and recommendations
