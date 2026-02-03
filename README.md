@@ -1,11 +1,13 @@
 Spotify User Churn Analysis & Prediction
 
 **Project Overview**
+
 This project analyzes and predicts user churn for Spotify using behavioral, demographic, and subscription data. The objective is to identify high-risk users, understand the key drivers of churn, and translate analytical insights into actionable business recommendations for improving user retention.
 The project combines supervised and unsupervised learning techniques with a strong emphasis on interpretability and business deployment.
 Note: This was a team-based academic project completed as part of the Data Science for Business course at Duke University – Fuqua School of Business.
 
 **Data Description**
+
 Source: Kaggle (synthetically generated dataset)
 Unit of analysis: Individual Spotify users
 Key feature groups:
@@ -39,6 +41,7 @@ Summary Style presentation focused on insights and recommendations
 README.md
 
 **Team & Acknowledgements**
+
 This project was a collaborative effort completed with fellow classmates as part of the Data Science for Business course at Duke Fuqua.
 Team Members:
 Weihan Liu, Sai Maradugu, Jannat Mubarik, Allie Sutter, Nishtha Wakankar
